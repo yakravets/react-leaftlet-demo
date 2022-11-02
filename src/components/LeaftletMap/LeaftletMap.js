@@ -63,7 +63,7 @@ export default function LeaftletMap() {
             <MapContainer 
                 center={latlngs[0]}
                 zoom={14}
-                scrollWheelZoom={false}>
+                scrollWheelZoom={true}>
 
                 <Polyline pathOptions={mapColor} positions={latlngs} />
                 <TileLayer
